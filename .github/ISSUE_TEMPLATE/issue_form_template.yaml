@@ -1,4 +1,4 @@
-name: 🐞 Bug
+name: 🐞 Bug report
 description: Report a bug/issue
 labels: [bug]
 body:
