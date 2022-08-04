@@ -68,10 +68,10 @@ body:
     label: Additional info
     description: |
       Add any other useful information that could allow others to replicate your issue, for example:
-      - **screenshots**
       - **installed plugins**
       - **project structure**
       - **configuration files**
+      - **self-explanatory pictures**
     placeholder: You can attach images or log files by clicking this area to highlight it and then dragging files in.
   validations:
     required: false
