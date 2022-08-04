@@ -1,7 +1,7 @@
 name: 🐞 Bug
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+description: Report a bug/issue
+title: ""
+labels: [bug]
 body:
 - type: textarea
   attributes:
