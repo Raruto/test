@@ -35,33 +35,33 @@ body:
   validations:
     required: true
 - type: input
-    attributes:
-      label: G3W-CLIENT Version
-      description: 
-      placeholder: eg. v3.4.x
-    validations:
-      required: true
+  attributes:
+    label: G3W-CLIENT Version
+    description: 
+    placeholder: eg. v3.4.x
+  validations:
+    required: true
 - type: input
-    attributes:
-      label: Browser name
-      description: 
-      placeholder: eg. Chrome, Firefox, Opera, Safari
-    validations:
-      required: true
+  attributes:
+    label: Browser name
+    description: 
+    placeholder: eg. Chrome, Firefox, Opera, Safari
+  validations:
+    required: true
 - type: input
-    attributes:
-      label: Operating System
-      description: name and version (desktop or mobile)
-      placeholder: 
-    validations:
-      required: true
+  attributes:
+    label: Operating System
+    description: name and version (desktop or mobile)
+    placeholder: 
+  validations:
+    required: true
 - type: input
-    attributes:
-      label: Link to your project
-      description: url or screenshots
-      placeholder: 
-    validations:
-      required: false
+  attributes:
+    label: Link to your project
+    description: url or screenshots
+    placeholder: 
+  validations:
+    required: false
 - type: textarea
   attributes:
     label: Anything else?
