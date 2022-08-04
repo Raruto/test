@@ -52,7 +52,7 @@ body:
 - type: input
   attributes:
     label: Operating System
-    description: name and version (desktop or mobile)
+    description:
     placeholder: eg. Windows 11 Pro (desktop), Android 11 (mobile), iOS 15 (mobile), ...
   validations:
     required: true
