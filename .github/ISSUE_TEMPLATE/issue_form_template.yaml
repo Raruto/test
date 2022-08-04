@@ -6,7 +6,8 @@ body:
 - type: textarea
   attributes:
     label: Subject of the issue
-    description: Describe your issue here.
+    description:
+    placeholder: Describe your issue here.
   validations:
     required: true
 - type: textarea
