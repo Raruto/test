@@ -63,12 +63,6 @@ body:
     placeholder: eg. https://dev.g3wsuite.it/en/map/demo-34/
   validations:
     required: false
-- type: markdown
-  attributes:
-    value: "# "
-- type: markdown
-  attributes:
-    value: 
 - type: textarea
   attributes:
     label: Additional info
