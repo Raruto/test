@@ -23,7 +23,7 @@ body:
     required: true
 - type: markdown
   attributes:
-    value: "## Enviroment"
+    value: "# Enviroment"
 - type: markdown
   attributes:
     value: |
@@ -63,6 +63,16 @@ body:
     placeholder: eg. https://dev.g3wsuite.it/en/map/demo-34/
   validations:
     required: false
+- type: markdown
+  attributes:
+    value: "#Additional info"
+- type: markdown
+  attributes:
+    value: |
+      Add any other useful information that could allow others to replicate your issue, for example:
+      - **project structure**
+      - **configuration files**
+      - **installed plugins**
 - type: textarea
   attributes:
     label: Anything else?
