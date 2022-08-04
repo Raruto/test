@@ -12,25 +12,19 @@ body:
       required: true
 - type: textarea
   attributes:
-    label: Current Behavior
-    description: A concise description of what you're experiencing.
+    label: Subject of the issue
+    description: A concise description of your issue.
   validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Expected Behavior
-    description: A concise description of what you expected to happen.
-  validations:
-    required: false
+    required: true
 - type: textarea
   attributes:
     label: Steps To Reproduce
     description: Steps to reproduce the behavior.
     placeholder: |
-      1. In this environment...
-      2. With this config...
-      3. Run '...'
-      4. See error...
+      1. Go to '...'
+      2. Click on '....'
+      3. Scroll down to '....'
+      4. See error
   validations:
     required: false
 - type: textarea
