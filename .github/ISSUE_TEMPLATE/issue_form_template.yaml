@@ -21,7 +21,8 @@ body:
   validations:
     required: true
 - type: markdown
-  value: "## Enviroment"
+  attributes:
+    value: "## Enviroment"
 - type: input
   attributes:
     label: G3W-ADMIN Version
