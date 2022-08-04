@@ -68,7 +68,7 @@ body:
     label: Additional info
     description: |
       Add any other useful information that could allow others to replicate your issue, for example:
-      - **pictures**
+      - **screenshots**
       - **installed plugins**
       - **configuration files**
       - **project structure**
