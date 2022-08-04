@@ -12,6 +12,17 @@ body:
       required: true
 - type: textarea
   attributes:
+    label: Steps to reproduce
+    description: Steps to reproduce the behavior.
+    placeholder: |
+      1. Go to '...'
+      2. Click on '....'
+      3. Scroll down to '....'
+      4. See error
+  validations:
+    required: false
+- type: textarea
+  attributes:
     label: Subject of the issue
     description: Describe your issue here.
   validations:
@@ -29,17 +40,6 @@ body:
         - Node:
         - npm:
     render: markdown
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Steps to Reproduce
-    description: Steps to reproduce the behavior.
-    placeholder: |
-      1. Go to '...'
-      2. Click on '....'
-      3. Scroll down to '....'
-      4. See error
   validations:
     required: false
 - type: textarea
