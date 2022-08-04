@@ -58,8 +58,8 @@ body:
 - type: input
   attributes:
     label: Link to your project
-    description: url or screenshots
-    placeholder: 
+    description: 
+    placeholder: eg. https://dev.g3wsuite.it/en/map/demo-34/
   validations:
     required: false
 - type: textarea
