@@ -41,7 +41,7 @@ body:
     description: 
     placeholder: eg. v3.4.x
   validations:
-    required: true
+    required: false
 - type: input
   attributes:
     label: Browser name
