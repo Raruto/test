@@ -23,6 +23,10 @@ body:
 - type: markdown
   attributes:
     value: "## Enviroment"
+- type: markdown
+  attributes:
+    value: |
+      Please provide as much information as possible in order to resolve your issue
 - type: input
   attributes:
     label: G3W-ADMIN Version
