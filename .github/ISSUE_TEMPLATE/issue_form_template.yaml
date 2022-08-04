@@ -28,12 +28,12 @@ body:
   validations:
     required: true
 - type: input
-    attributes:
-      label: G3W-ADMIN Version
-      description: 
-      placeholder: eg. v3.4.x
-    validations:
-      required: true
+  attributes:
+    label: G3W-ADMIN Version
+    description: 
+    placeholder: eg. v3.4.x
+  validations:
+    required: true
 - type: input
     attributes:
       label: G3W-CLIENT Version
