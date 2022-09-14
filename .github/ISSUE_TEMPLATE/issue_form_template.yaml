@@ -5,7 +5,7 @@ assignees: [Raruto]
 body:
 - type: checkboxes
   attributes:
-    label: Checklist
+    label: 
     description: >
       Please confirm the following:
     options:
