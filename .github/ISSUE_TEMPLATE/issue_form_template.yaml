@@ -21,16 +21,9 @@ body:
       4. See error
   validations:
     required: true
-# - type: markdown
-#  attributes:
-#    value: "# Enviroment"
-#- type: markdown
-#  attributes:
-#    value: |
-#      Please provide as much information as possible in order to resolve your issue. Need help? [Find out your version](https://github.com/g3w-suite/g3w-admin#version).
 - type: textarea
   attributes:
-    label: Enviroment
+    label: Environment
     description: Please provide as much information as possible in order to resolve your issue. Need help? [Find out your version](https://github.com/g3w-suite/g3w-admin#version).
     # placeholder: You can attach images or log files by clicking this area to highlight it and then dragging files in.
     value: |
@@ -38,48 +31,6 @@ body:
      - g3-client: __version__
      - browser: __name__
      - operating system: __name and version (desktop or mobile)__
-     - link to your project: __url or screenshots__
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: G3W-ADMIN Version
-    description: 
-    placeholder: eg. v3.4.x
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: G3W-CLIENT Version
-    description: 
-    placeholder: eg. v3.4.x
-  validations:
-    required: false
-# - type: input
-#  attributes:
-#    label: Browser name
-#    description: 
-#    placeholder: eg. Chrome, Firefox, Opera, Safari, ...
-#  validations:
-#    required: true
-- type: dropdown
-  attributes:
-    label: Browser name
-    description: 
-    multiple: true
-    options:
-      - Chrome
-      - Edge
-      - Firefox
-      - Opera
-      - Safari
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Operating System
-    description:
-    placeholder: eg. Windows 11 Pro (desktop), Android 11 (mobile), iOS 15 (mobile), ...
   validations:
     required: true
 - type: input
