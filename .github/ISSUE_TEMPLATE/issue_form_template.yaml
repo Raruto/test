@@ -41,10 +41,10 @@ body:
 #     - browser: __Firefox__
 #     - operating system: __Android 11 (mobile)__
     value: |
-     - g3w-admin: [version]
-     - g3-client: [version]
-     - browser: [name]
-     - operating system: [name and version (desktop or mobile)]
+     - g3w-admin: __version__
+     - g3-client: __version__
+     - browser: __name__
+     - operating system: __name and version (desktop or mobile)__
     render: markdown
   validations:
     required: true
