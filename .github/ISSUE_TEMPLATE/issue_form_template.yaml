@@ -36,6 +36,7 @@ body:
      - g3-client: __version__
      - browser: __name__
      - operating system: __name and version (desktop or mobile)__
+    render: markdown
   validations:
     required: true
 - type: input
