@@ -3,7 +3,7 @@ description: Report a bug/issue
 labels: [bug]
 assignees: [Raruto]
 body:
- - type: textarea
+- type: textarea
   attributes:
     label: Subject of the issue
     description: Describe your issue here.
