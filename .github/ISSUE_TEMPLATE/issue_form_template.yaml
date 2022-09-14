@@ -1,6 +1,7 @@
 name: 🐞 Bug report
 description: Report a bug/issue
 labels: [bug]
+assignees: [Raruto]
 body:
 - type: textarea
   attributes:
@@ -41,11 +42,24 @@ body:
     placeholder: eg. v3.4.x
   validations:
     required: false
-- type: input
+# - type: input
+#  attributes:
+#    label: Browser name
+#    description: 
+#    placeholder: eg. Chrome, Firefox, Opera, Safari, ...
+#  validations:
+#    required: true
+- type: dropdown
   attributes:
     label: Browser name
     description: 
-    placeholder: eg. Chrome, Firefox, Opera, Safari, ...
+    multiple: true
+    options:
+      - Chrome
+      - Edge
+      - Firefox
+      - Opera
+      - Safari
   validations:
     required: true
 - type: input
