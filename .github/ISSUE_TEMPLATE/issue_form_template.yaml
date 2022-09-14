@@ -26,11 +26,11 @@ body:
     label: Environment
     description: |
      Please provide as much information as possible in order to resolve your issue. Need help? [Find out your version](https://github.com/g3w-suite/g3w-admin#version).
-     Example:
-     - g3w-admin: __3.4__
-     - g3-client: __3.6__
-     - browser: __Firefox__
-     - operating system: __Android 11 (mobile)__
+#     Example:
+#     - g3w-admin: __3.4__
+#     - g3-client: __3.6__
+#     - browser: __Firefox__
+#     - operating system: __Android 11 (mobile)__
     value: |
      - g3w-admin: __version__
      - g3-client: __version__
