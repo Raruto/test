@@ -1,0 +1,16 @@
+# Add 'test' to any changes within 'test' folder or any subfolders
+test:
+- test/**/*
+
+# Add 'i18n' to any changes within 'src/locales' folder or any subfolders
+i18n:
+- src/locales/**/*
+
+# Add 'config' label to any root file changes (EXCEPT for TXT and MD files)
+config:
+- all: ['*', '!*.txt', '!*.md']
+
+# Add 'docs' label to any root file changes (TXT and MD files)
+docs:
+- all: ['*', '*.md']
+  all: ['*', '*.txt']
