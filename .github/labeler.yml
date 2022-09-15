@@ -10,10 +10,6 @@ i18n:
 config:
 - all: ['*', '!*.txt', '!*.md']
 
-# Add 'docs' label to any root file changes (MD files)
+# Add 'docs' label to any root file changes (TXT and MD files)
 docs:
-- all: ['*', '*.md']
-
-# Add 'docs' label to any root file changes (TXT files)
-docs:
-- all: ['*', '*.txt']
+- any: ['*.md', '*.txt']
