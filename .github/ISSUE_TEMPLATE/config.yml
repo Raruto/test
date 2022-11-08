@@ -1,6 +1,6 @@
 blank_issues_enabled: true
 
 contact_links:
-  - name: Documentation (desktop and server)
+  - name: 📄 Improve documentation 
     url: https://github.com/g3w-suite/g3w-suite-documentation/issues
-    about: Suggest improvements or report errors regarding https://docs.qgis.org
+    about: Suggest new additions or updates to existing documentation
